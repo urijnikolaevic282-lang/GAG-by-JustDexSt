@@ -298,13 +298,13 @@ Frame.Visible = true
 end)
 
 TextButton.MouseButton1Click:Connect(function()
-	Character:MoveTo(Vector3.new(-285,0,-14))
+	Character:MoveTo(Vector3.new(-285,25,-14))
 
 end)
 
 
 TextButton2.MouseButton1Click:Connect(function()
-	Character:MoveTo(Vector3.new(-285,0,-1))
+	Character:MoveTo(Vector3.new(-285,25,-1))
 
 end)
 
@@ -454,7 +454,7 @@ WarText.Parent = Frame
 WarText.TextColor3 = Color3.new(0, 0, 0)
 
 GreenRedButton.MouseButton1Click:Connect(function()
-	Character:MoveTo(Vector3.new(-285,0,-14))
+	Character:MoveTo(Vector3.new(-275,25,-14))
 
 end)
 
